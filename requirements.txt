@@ -1,4 +1,4 @@
 #requirements.txt
 
 snowflake-connector-python
-cffi==22.0.3
+cffi==1.10.0
