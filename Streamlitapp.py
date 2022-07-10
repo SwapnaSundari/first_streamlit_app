@@ -33,7 +33,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 retrun fruityvice_normalized
 
 # Display the table on the page.
-streamlit.dataframe(fruits_to_show)
+#streamlit.dataframe(fruits_to_show)
 streamlit.header('Fruity Fruit Advice!')
 try:
   #fruit_choice = streamlit.text_input('What fruit would you like information about?','apple')
