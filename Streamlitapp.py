@@ -45,7 +45,7 @@ else:
     streamlit.dataframe(back_from_function)
 #streamlit.write('The user entered ', fruit_choice)
 #import requests
-#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ fruit_choice)
+#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ this_fruit_choice)
 # streamlit.text(fruityvice_response.json())
 # take the json version and normalize it
 #fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
