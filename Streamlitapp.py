@@ -41,8 +41,8 @@ try:
   if not fruit_choice:
      streamlit.error("Please select a fruit to get the information")
   else:  
-  back_from_function = get_fruityvice_data(fruit_choice):
-  streamlit.dataframe(back_from_function)
+    back_from_function = get_fruityvice_data(fruit_choice):
+    streamlit.dataframe(back_from_function)
 #streamlit.write('The user entered ', fruit_choice)
 #import requests
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ this_fruit_choice)
