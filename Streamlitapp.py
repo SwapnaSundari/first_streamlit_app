@@ -50,7 +50,7 @@ try:
 # take the json version and normalize it
 #fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # output to the table
-streamlit.dataframe(fruityvice_normalized)
+#streamlit.dataframe(fruityvice_normalized)
 
 except URLError as e:
   streamlit.error()
