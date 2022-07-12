@@ -46,11 +46,11 @@ try:
 #streamlit.write('The user entered ', fruit_choice)
 #import requests
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ this_fruit_choice)
-# streamlit.text(fruityvice_response.json())
+#streamlit.text(fruityvice_response.json())
 # take the json version and normalize it
 #fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # output to the table
-#streamlit.dataframe(fruityvice_normalized)
+streamlit.dataframe(fruityvice_normalized)
 
 except URLError as e:
   streamlit.error()
